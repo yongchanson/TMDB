@@ -1,0 +1,21 @@
+.movie-info{
+    width: 100%;
+    height: calc(100vh - 60px);
+    margin-top: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movie-detail{
+    color: #fff;
+} 
+
+/* .starring{
+    display:flex;
+} */
+.actorimg{
+    width : 300px;
+    height : 400px;
+    position:relative;
+}
+
