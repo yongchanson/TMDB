@@ -45,8 +45,8 @@ fetch(`${movie_detail_http}${movie_id}/credits?` + API_KEY)
 
     for(let i = 0; i < data.cast.length; i++){
         actor.innerHTML +=
-        `<li> <img class="actorimg" src="${IMG_URL}${data.cast[i].profile_path}">
-        <h4>배우이름 : ${data.cast[i].name}</h4> <h4>배역이름 : ${data.cast[i].character}</h4> </li>`;
+        `<div class="actors"> <img class="actorimg" src="${IMG_URL}${data.cast[i].profile_path}">
+        <h4>배우이름 : ${data.cast[i].name}</h4> <h4>배역이름 : ${data.cast[i].character}</h4> </div>`;
     }
 })    
 

@@ -1,3 +1,4 @@
+/* 평점 */
 .movie-info span.green{
     color:green;
 }
@@ -10,6 +11,7 @@
     color:red;
 }
 
+/* 포스터 */
 .movie {
     width: 300px;
     position:relative;
@@ -21,6 +23,7 @@
 }
 
 main{
+    /* position: relative; */
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
